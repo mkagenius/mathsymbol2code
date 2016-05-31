@@ -22,8 +22,8 @@ var H = prod(h); // h is a 1-D array
 ```javascript
 function nestedSum(cost, 1, T, 1, N) {
     var sum = 0;
-    for(var i = 1; i <= T; i++) {
-        for(var t = 1; t <= N; t++) {
+    for(var i = 1; i <= N; i++) {
+        for(var t = 1; t <= T; t++) {
             sum += cost[i][t];
         }
     }
