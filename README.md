@@ -36,5 +36,5 @@ function nestedSum(cost, 1, T, 1, N)
     }
     return sum;
 }
-P = nestedSum(cost, 1, T, 1, N); // cost is a 2D array
+P = nestedSum(cost, 1, T, 1, N) / N; // cost is a 2D array
 ```
