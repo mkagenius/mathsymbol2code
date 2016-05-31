@@ -9,21 +9,22 @@ function square(x) {
 
 ![product](prod.png)
 ```javascript
-function prod(h) {
+function prod(h, _t, T) {
     var ret = 1;
-    for(var t = 1; t <= T; t++) {
+    for(var t = _t; t <= T; t++) {
         ret *= h[t];
     }
     return ret;
 }
-var H = prod(h); // h is a 1-D array
+var T = 100;
+var H = prod(h, 1, T); // h is a 1-D array
 ```
 ![nested sum](nestedsum.png)
 ```javascript
-function nestedSum(cost, 1, T, 1, N) {
+function nestedSum(cost, _t, T, _n, N) {
     var sum = 0;
-    for(var i = 1; i <= N; i++) {
-        for(var t = 1; t <= T; t++) {
+    for(var i = _n; i <= N; i++) {
+        for(var t = _t; t <= T; t++) {
             sum += cost[i][t];
         }
     }
