@@ -11,8 +11,8 @@ function square(x) {
 ```javascript
 function prod(h) {
     var ret = 1;
-    for(var i in h) {
-        ret *= h[i];
+    for(var t = 1; t <= T; t++) {
+        ret *= h[t];
     }
     return ret;
 }
