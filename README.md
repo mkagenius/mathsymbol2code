@@ -16,7 +16,6 @@ function prod(h) {
     }
     return ret;
 }
-
 var H = prod(h); // h is a 1-D array
 ```
 ![nested sum](nestedsum.png)
@@ -30,5 +29,7 @@ function nestedSum(cost, 1, T, 1, N) {
     }
     return sum;
 }
-P = nestedSum(cost, 1, T, 1, N) / N; // cost is a 2D array
+var T = 20;
+var N = 50;
+var P = nestedSum(cost, 1, T, 1, N) / N; // cost is a 2D array
 ```
