@@ -34,3 +34,20 @@ var T = 20;
 var N = 50;
 var P = nestedSum(cost, 1, T, 1, N) / N; // cost is a 2D array
 ```
+![nCr](ncr.png)
+```javascript
+function factorial(n) {
+    var ret = 1;
+    for (var i = 1; i <= n; i++) {
+        ret *= i;
+    }
+    return ret;
+}
+
+var B  = factorial(n) / (factorial(n-r) * factorial(r)) 
+```
+
+![if else](ifelse.png)
+```javascript
+v = (n < 1) ? 0 : 1
+```
