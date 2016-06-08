@@ -1,4 +1,5 @@
 # Mathematical Symbols to Lovely code
+Mathematical symbols are sometimes tricky to understand, they sometime pack a lot of information in them. This cheatsheet could help programmers understand those symbols in somewhat intuitive way.
 
 ![x square](square.png)
 ```javascript
